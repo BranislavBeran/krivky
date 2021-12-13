@@ -13,7 +13,7 @@ Grafika::Grafika(QWidget *parent)
 	
 	
 	
-	ui.scrollArea->setWidget(&this->widgetNaKreslenie);
+	ui.scrollArea->setWidget(&this->widgetNaKresl       enie);
 	ui.scrollArea->setBackgroundRole(QPalette::Dark);
 	widgetNaKreslenie.newImage(700, 700);
 	widgetNaKreslenie.initImage(); 

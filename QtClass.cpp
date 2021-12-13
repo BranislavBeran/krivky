@@ -9,7 +9,7 @@ QtClass::~QtClass()
 {
 }
 
-void QtClass::drawPoints()
+void QtClass::drawPoints(             )
 {
 	for (int i = 0; i < points.size(); i++) {
 		setPixel(points[i].x()-1, points[i].y()+1, colorLines);
