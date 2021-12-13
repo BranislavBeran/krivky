@@ -9,6 +9,10 @@ Grafika::Grafika(QWidget *parent)
 	
 	
 	ui.setupUi(this);
+	
+	
+	
+	
 	ui.scrollArea->setWidget(&this->widgetNaKreslenie);
 	ui.scrollArea->setBackgroundRole(QPalette::Dark);
 	widgetNaKreslenie.newImage(700, 700);
