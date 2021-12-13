@@ -3,6 +3,8 @@
 Grafika::Grafika(QWidget *parent)
 	: QMainWindow(parent)
 {
+	
+	test
 	ui.setupUi(this);
 	ui.scrollArea->setWidget(&this->widgetNaKreslenie);
 	ui.scrollArea->setBackgroundRole(QPalette::Dark);
